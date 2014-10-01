@@ -41,14 +41,15 @@ namespace Practica_02
             R4 = R1 + R2 + R3;
             IVA = (R4 *16) / 100;
             R5 = R4 + IVA;
-            Console.WriteLine(" " + P1 + " " + D1 + " " + R1 + "+");
-            Console.WriteLine(" " + P2 + " " + D2 + " " + R2 + "+");
-            Console.WriteLine(" " + P3 + " " + D3 + " " + R3 + "\n------------------------");
+            Console.WriteLine("\t" + P1 + "\t" + D1 + "\t" + R1 + "\t+");
+            Console.WriteLine("\t" + P2 + "\t" + D2 + "\t" + R2 + "\t+");
+            Console.WriteLine("\t" + P3 + "\t" + D3 + "\t" + R3 + "\n------------------------");
             Console.WriteLine("Subtotal "+R4);
             Console.WriteLine("Iva "+IVA);
             Console.WriteLine("Total "+R5);
             Console.WriteLine("Gracias Por Su Compra");
-
+            Console.WriteLine("\n\n\nPresione una tecla para salir");
+            Console.ReadKey(true);
         }
         static void Main(string[] args)
         {
