@@ -18,21 +18,21 @@ namespace Practica_02
             Console.WriteLine("Dame la descripcion");
             D1= Console.ReadLine();
             Console.WriteLine("Dame el precio unitario");
-            V1=int.Parse(Console.ReadLine());
+            V1=double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Dame la cantidad del segundo producto");
+            Console.WriteLine("\n\nDame la cantidad del segundo producto");
             P2 = int.Parse(Console.ReadLine());
             Console.WriteLine("Dame la descripcion");
             D2 = Console.ReadLine();
             Console.WriteLine("Dame el precio unitario");
-            V2 = int.Parse(Console.ReadLine());
+            V2 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Dame la cantidad del tercer producto");
+            Console.WriteLine("\n\nDame la cantidad del tercer producto");
             P3 = int.Parse(Console.ReadLine());
             Console.WriteLine("Dame la descripcion");
             D3 = Console.ReadLine();
             Console.WriteLine("Dame el precio unitario");
-            V3 = int.Parse(Console.ReadLine());
+            V3 = double.Parse(Console.ReadLine());
 
 
         }
